@@ -50,12 +50,62 @@ export default {
         ]
     },
     loading: false,
+    components: true,
     css: ['~/assets/scss/main.scss'],
     plugins: ['~/plugins/vue-clipboard.ts', '~/plugins/vue-bootstrap-icons.ts'],
-    components: true,
     buildModules: ['@nuxt/typescript-build'],
     modules: ['bootstrap-vue/nuxt', '@nuxtjs/i18n', 'vue-sweetalert2/nuxt'],
-    i18n: {},
+    i18n: {
+        lazy: true,
+        langDir: 'lang/',
+        defaultLocale: 'en',
+        detectedBrowserLanguage: false,
+
+        locales: [
+            {
+                name: 'English',
+                code: 'en',
+                iso: 'en-US',
+                file: 'en-US.js'
+            },
+            {
+                name: 'German',
+                code: 'de',
+                iso: 'de-DE',
+                file: 'de-DE.js'
+            },
+            {
+                name: 'French',
+                code: 'fr',
+                iso: 'fr-FR',
+                file: 'fr-FR.js'
+            },
+            {
+                name: 'Russian',
+                code: 'ru',
+                iso: 'ru-RU',
+                file: 'ru-RU.js'
+            },
+            {
+                name: 'Portuguese (Brazil)',
+                code: 'ptBR',
+                iso: 'pt-BR',
+                file: 'pt-BR.js'
+            },
+            {
+                name: 'Chinese',
+                code: 'cn',
+                iso: 'zh-CN',
+                file: 'zh-CN.js'
+            },
+            {
+                name: 'Chinese (Traditional)',
+                code: 'tw',
+                iso: 'zh-TW',
+                file: 'zh-TW.js'
+            }
+        ]
+    },
     bootstrapVue: {
         bootstrapCSS: false,
         bootstrapVueCSS: false
