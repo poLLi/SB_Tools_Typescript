@@ -60,6 +60,7 @@ export default {
         langDir: 'lang/',
         defaultLocale: 'en',
         detectedBrowserLanguage: false,
+        baseUrl: 'https://starbase.codes',
 
         locales: [
             {
