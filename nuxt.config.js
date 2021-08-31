@@ -51,10 +51,11 @@ export default {
     },
     loading: false,
     css: ['~/assets/scss/main.scss'],
-    plugins: [],
+    plugins: ['~/plugins/vue-clipboard.ts', '~/plugins/vue-bootstrap-icons.ts'],
     components: true,
     buildModules: ['@nuxt/typescript-build'],
-    modules: ['bootstrap-vue/nuxt'],
+    modules: ['bootstrap-vue/nuxt', '@nuxtjs/i18n', 'vue-sweetalert2/nuxt'],
+    i18n: {},
     bootstrapVue: {
         bootstrapCSS: false,
         bootstrapVueCSS: false
