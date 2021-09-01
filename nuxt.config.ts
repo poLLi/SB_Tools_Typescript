@@ -67,43 +67,43 @@ export default {
                 name: 'English',
                 code: 'en',
                 iso: 'en-US',
-                file: 'en-US.js'
+                file: 'en-US.ts'
             },
             {
                 name: 'German',
                 code: 'de',
                 iso: 'de-DE',
-                file: 'de-DE.js'
+                file: 'de-DE.ts'
             },
             {
                 name: 'French',
                 code: 'fr',
                 iso: 'fr-FR',
-                file: 'fr-FR.js'
+                file: 'fr-FR.ts'
             },
             {
                 name: 'Russian',
                 code: 'ru',
                 iso: 'ru-RU',
-                file: 'ru-RU.js'
+                file: 'ru-RU.ts'
             },
             {
                 name: 'Portuguese (Brazil)',
                 code: 'ptBR',
                 iso: 'pt-BR',
-                file: 'pt-BR.js'
+                file: 'pt-BR.ts'
             },
             {
                 name: 'Chinese',
                 code: 'cn',
                 iso: 'zh-CN',
-                file: 'zh-CN.js'
+                file: 'zh-CN.ts'
             },
             {
                 name: 'Chinese (Traditional)',
                 code: 'tw',
                 iso: 'zh-TW',
-                file: 'zh-TW.js'
+                file: 'zh-TW.ts'
             }
         ]
     },
